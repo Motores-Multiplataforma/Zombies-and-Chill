@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d1f927b3bd054144975598b152913e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuego: {fileID: 0}
+  fuego: {fileID: 3461575499657321560}
 --- !u!65 &278559727
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d1f927b3bd054144975598b152913e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuego: {fileID: 0}
+  fuego: {fileID: 3461575499657321560}
 --- !u!114 &278559730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d1f927b3bd054144975598b152913e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuego: {fileID: 0}
+  fuego: {fileID: 3461575499657321560}
 --- !u!65 &278559731
 BoxCollider:
   m_ObjectHideFlags: 0
