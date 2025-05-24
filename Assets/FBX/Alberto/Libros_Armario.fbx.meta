@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: 9a5f0557ca9d2674eb5ed6285dc59e46
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_Est_01
+    second: {fileID: 2100000, guid: fd159e389b6f06648bd141e4f6891b77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_Est_02
+    second: {fileID: 2100000, guid: b1d63f7ae8ca1d7409859a1e196fcffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_Est_03
+    second: {fileID: 2100000, guid: cf2dd39bfcd5658489caa2a814d3c22f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_Est_04
+    second: {fileID: 2100000, guid: 7af3a5da2ba801847b23bd48a74bec54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_Gran_01
+    second: {fileID: 2100000, guid: 8ad2e24511a12fd47afdc9f76e30f650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_Gran_02
+    second: {fileID: 2100000, guid: 6fb8f6e1994d7544ab2ec3a1b53393ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_Gran_03
+    second: {fileID: 2100000, guid: ab6efce2093e55d45a5bba7b65265ce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_Gran_04
+    second: {fileID: 2100000, guid: 5cb302fc829a6c448bd2c1495d07dbc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_peq_01
+    second: {fileID: 2100000, guid: 856fb755d529735488ca39a549286d96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_peq_02
+    second: {fileID: 2100000, guid: 53259553a3dacfd4d85f75ad7e759dd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_peq_03
+    second: {fileID: 2100000, guid: 3da9595fbbb66be41b8e50540f9f1634, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Libro_peq_04
+    second: {fileID: 2100000, guid: 0f91d36737de79d4fbd3ce7116e84d13, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 01_Libro_Est_01_BaseColor
+    second: {fileID: 2800000, guid: 5e3a6d522636a564db1730434476833e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 01_Libro_Est_01_BaseColorB
+    second: {fileID: 2800000, guid: bc2fdfdb9308b374dab89b9a46b7743d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 01_Libro_Est_01_BaseColorC
+    second: {fileID: 2800000, guid: 5be2e68239e58414dbca8467522a6dc4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 01_Libro_Est_01_BaseColorD
+    second: {fileID: 2800000, guid: 4d8b6679b6adefa47b53a2ede30b5b61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 01_Libro_Est_01_Metalness
+    second: {fileID: 2800000, guid: 29665a6eaba99de47b7cf08893852bf1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 01_Libro_Est_01_Normal
+    second: {fileID: 2800000, guid: e38e3893af799d54a978505bed555730, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 01_Libro_Est_01_Roughness
+    second: {fileID: 2800000, guid: b87253d82d0cc034da813a1ac571740b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 02_Libro_peq_01_BaseColor
+    second: {fileID: 2800000, guid: 44389a3a7d8e853499dd0a9dd0715967, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 02_Libro_peq_01_BaseColorB
+    second: {fileID: 2800000, guid: a76f938709e6a444790179f784542fa9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 02_Libro_peq_01_BaseColorC
+    second: {fileID: 2800000, guid: 712714d21bcc29646acf28dc991f0f97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 02_Libro_peq_01_BaseColorD
+    second: {fileID: 2800000, guid: 1b98836ac9759034a96ca9b61e91fa1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 02_Libro_peq_01_Metalness
+    second: {fileID: 2800000, guid: fb012d73ea393054d9a8b75c1458c159, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 02_Libro_peq_01_Normal
+    second: {fileID: 2800000, guid: 061058c888abf454eb34081985b8bce7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 02_Libro_peq_01_Roughness
+    second: {fileID: 2800000, guid: 1b1c390dce97c25478dfec9bea75a173, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 03_Libro_Gran_01_BaseColor
+    second: {fileID: 2800000, guid: 7da7502e1818af045a7abc7e36deae23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 03_Libro_Gran_01_BaseColorB
+    second: {fileID: 2800000, guid: 5fd52b9bac02a904e892c1306a4252d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 03_Libro_Gran_01_BaseColorC
+    second: {fileID: 2800000, guid: 8fb44dcc2d3e9de498490e26ab47f454, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 03_Libro_Gran_01_BaseColorD
+    second: {fileID: 2800000, guid: c1fc83c33a4268c4b990b2c31554126c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 03_Libro_Gran_01_Metalness
+    second: {fileID: 2800000, guid: 6ff1c8dafb6409a45b42dfcd4e30ef1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 03_Libro_Gran_01_Normal
+    second: {fileID: 2800000, guid: 18ade76ff5814f14c8c7864d3b4d9e64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Libro 03_Libro_Gran_01_Roughness
+    second: {fileID: 2800000, guid: 236aa0d706851924395bd32a8d1ad0f1, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

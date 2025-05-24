@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: d91640cc53228d744ac84d57acac9378
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oro
+    second: {fileID: 2100000, guid: 09c9a965de5bdb54c9b2fc2367228bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Oro_02
+    second: {fileID: 2100000, guid: 9b6b96bcc23be4441a65e2e0177a47c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared02_text
+    second: {fileID: 2100000, guid: 4b09f2d9f23b4164ca1087c92cc0fe0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared_Text
+    second: {fileID: 2100000, guid: 8cfeca9a38eac7648a253aa4b39a29dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suelo_Text
+    second: {fileID: 2100000, guid: 2264a90fa3879fd4cbb1458834d46807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Techo_Text
+    second: {fileID: 2100000, guid: 9df725f4996f5c5409fa9e1626fd20e1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Oro_02_BaseColor
+    second: {fileID: 2800000, guid: da1b5a19e80bf4b49b997bc3530ba830, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Oro_02_Metalness
+    second: {fileID: 2800000, guid: 8322c0333298a3944bede6e774316025, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Oro_02_Normal
+    second: {fileID: 2800000, guid: a883901b4019def4b91cfc4450233969, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Oro_02_Roughness
+    second: {fileID: 2800000, guid: e2e6682421e5743479ee158db3d34f4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Oro_BaseColor
+    second: {fileID: 2800000, guid: 80031a2bbf964ff42a7ed42b2c1ffab8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Oro_Metalness
+    second: {fileID: 2800000, guid: 721b68ce75f65c349bf4497e9a006cf0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Oro_Normal
+    second: {fileID: 2800000, guid: 605595a98cde5014f9fcec750d5dece9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Oro_Roughness
+    second: {fileID: 2800000, guid: 20f9b3c17b1bffb4ba083c601817dcaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Pared02_Text_BaseColor
+    second: {fileID: 2800000, guid: a6e402d053f09a64a97b929a26e4d267, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Pared02_Text_Metalness
+    second: {fileID: 2800000, guid: e7fc91066cac5ef4b981537536797363, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Pared02_Text_Normal
+    second: {fileID: 2800000, guid: c93504975dcc78a448a247cca8ba34d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Pared02_Text_Roughness
+    second: {fileID: 2800000, guid: a6a2a50921d25644cbfc77f4d8f7d615, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Pared_Text_BaseColor
+    second: {fileID: 2800000, guid: bc111eb57c5425d4cbf75335b3fbceb8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Pared_Text_Metalness
+    second: {fileID: 2800000, guid: 767fe235b260a324988f1dfeeb109407, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Pared_Text_Normal
+    second: {fileID: 2800000, guid: 4a6f7029ff0e72c49aa864ff47bf5438, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Pared_Text_Roughness
+    second: {fileID: 2800000, guid: 9c5818bc4e6e8f34a8bf72329f7a68a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Suelo_text_BaseColor
+    second: {fileID: 2800000, guid: dbda4d2b799e0484f80d3a6907bb7148, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Suelo_text_Metalness
+    second: {fileID: 2800000, guid: 99c17707f7e9a554d97db0f0b7ad3182, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Suelo_text_Normal
+    second: {fileID: 2800000, guid: 7fd9e90663317144d9bcae3d0240e5bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Suelo_text_Roughness
+    second: {fileID: 2800000, guid: 709edd64a4d052f47a93f8809888582f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Techo_Text_Metalness
+    second: {fileID: 2800000, guid: 9893ea14c468436449bd2c5bcf66dce3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Techo_Text_Normal
+    second: {fileID: 2800000, guid: 9dd5807d27f50f043b7b03829356e8e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Habitacion_Techo_Text_Roughness
+    second: {fileID: 2800000, guid: 918fcb06db5faa64b96b89d3cbc7e306, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
