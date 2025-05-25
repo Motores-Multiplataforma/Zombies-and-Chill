@@ -181,7 +181,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Debes recoger los siguientes objetos para poder decorar tu habitat, piensa
     que al final hay que aprobechar la vida y darte algun capricho.\n\nObjetos: Mechero,
-    Cuchillo, Tablero Ajedrez, Coj\xEDn, Alfombra y un refresco"
+    Cuchillo, Tablero Ajedrez, Coj\xEDn, Alfombra y un refresco."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
   m_sharedMaterial: {fileID: 881820714376138513, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
@@ -464,7 +464,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 66.19028, y: 0}
+  m_AnchoredPosition: {x: 66.19031, y: 0}
   m_SizeDelta: {x: 1546.6205, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373139071
@@ -534,7 +534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b8e3cb12a61e49c3bed83f2957c8899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  home: home
 --- !u!4 &574664783
 Transform:
   m_ObjectHideFlags: 0
@@ -807,7 +806,7 @@ MonoBehaviour:
   timer: 0
   tiempoAparicion: 0
   rightTriggerAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Right Trigger
       m_Type: 0
@@ -817,7 +816,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &651657145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1314,6 +1313,63 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &1338960842
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_Name
+      value: XR Device Simulator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
 --- !u!1 &1893179240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1557,3 +1613,4 @@ SceneRoots:
   - {fileID: 574664783}
   - {fileID: 651657145}
   - {fileID: 829086348}
+  - {fileID: 1338960842}
