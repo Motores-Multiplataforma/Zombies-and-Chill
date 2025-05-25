@@ -1,44 +1,35 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class ObjectCollector_Escenario2 : MonoBehaviour
+public class ObjectCollectorAsier : MonoBehaviour
 {
-    public Image iconAlfombra;
-    public Image iconCojin;
-    public Image iconCuchillo;
-    public Image iconLata;
-    public Image iconMechero;
-    public Image iconAjedrez;
+    public Image[] icons; // Asigna 6 íconos en el orden correcto
+    public string[] ids = { "alfombra", "cojin", "cuchillo", "lata", "mechero", "ajedrez" };
 
-    private int objectsCollected = 0;
-    private int totalObjects = 6;
-
-    public GameObject teleportArea;
+    private int collected = 0;
+    public GameObject teleportZone; // Asigna el área de teletransporte en el Inspector
 
     void Start()
     {
-        teleportArea.SetActive(false);
+        teleportZone.SetActive(false);
     }
 
-    public void Collect(string objectName)
+    public void Collect(string id)
     {
-        switch (objectName)
+        for (int i = 0; i < ids.Length; i++)
         {
-            case "Img_alfombra": iconAlfombra.color = Color.green; break;
-            case "Img_cojin": iconCojin.color = Color.green; break;
-            case "Img_cuchillo": iconCuchillo.color = Color.green; break;
-            case "Img_lata": iconLata.color = Color.green; break;
-            case "Img_mechero": iconMechero.color = Color.green; break;
-            case "Img_ajedrez": iconAjedrez.color = Color.green; break;
+            if (ids[i] == id)
+            {
+                icons[i].color = Color.green;
+                break;
+            }
         }
 
-        objectsCollected++;
-
-        if (objectsCollected == totalObjects)
+        collected++;
+        if (collected >= ids.Length)
         {
-            teleportArea.SetActive(true);
+            teleportZone.SetActive(true);
         }
     }
 }
+
