@@ -487,12 +487,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'En este espacio solo has podido entrar gracias a que el mundo se ha ido
-    a pique, coge los elementos para montar tu chill out:
-
-
-    Sillon, Estatua,
-    Silla, Mesa, Vaso, Jarra.'
+  m_text: "Solo en la ruina florecen nuevos refugios. Recoge lo que queda: sill\xF3n,
+    estatua, silla, mesa, vaso y jarra\u2026 y p\xF3ntelos  junto a la hoguera."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
   m_sharedMaterial: {fileID: 881820714376138513, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
