@@ -96,13 +96,16 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
                 }
             }
             else if (tiempoRestante <= 0 && tiempoActivo)
-            {
-                tiempoRestante = 0;
-                tiempoActivo = false;
-                ActualizarReloj();
-                // Aquí puedes poner lo que quieras que pase cuando termine el tiempo
-                Debug.Log("¡Tiempo terminado!");
-            }  
+{
+    tiempoRestante = 0;
+    tiempoActivo = false;
+    ActualizarReloj();
+
+    Debug.Log("¡Tiempo terminado!");
+    
+    // Cambiar de escena al llegar a cero
+    SceneManager.LoadScene("GameOverPerdio");
+}
 
              // Efecto de parpadeo cuando quedan menos de 60 segundos
             if (parpadeoActivo)

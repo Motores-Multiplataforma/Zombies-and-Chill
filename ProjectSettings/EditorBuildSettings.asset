@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/introHabitAsier.unity
     guid: 7776fa73370542a4d93f887b1847a961
+  - enabled: 1
+    path: Assets/Scenes/GameOverPerdio.unity
+    guid: 02edeb3374547450aa80c22ef13ba353
+  - enabled: 1
+    path: Assets/Scenes/CongratulationGano.unity
+    guid: 71ec25909d84745e6b4d2aee8f0b5920
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 243881a33b3cbe844ae836f3603603c5, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 85eda8dc7ea362647a00a44309e5acf0, type: 2}
