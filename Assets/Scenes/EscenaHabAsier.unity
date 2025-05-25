@@ -1340,7 +1340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158449dfb2180214bbd69471b8fb3282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: EscenaInicio
+  sceneName: EscenaInicioAsier
 --- !u!114 &914486556
 MonoBehaviour:
   m_ObjectHideFlags: 0
