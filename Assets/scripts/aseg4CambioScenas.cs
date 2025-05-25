@@ -14,6 +14,6 @@ public class SceneChanger : MonoBehaviour
     void ChangeScene()
     {
         // Cambia a la escena especificada
-        SceneManager.LoadScene(home);
+        SceneManager.LoadScene(EscenaHabAlberto);
     }
 }

@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,6 +20,8 @@ public class TextoIntroAlbert : MonoBehaviour
         texto = GameObject.Find("Texto");
         texto.GetComponent<TextMeshProUGUI>().enabled = false; // Ocultamos el texto al principio
     }
+
+    
 
     void Update()
     {
@@ -59,6 +62,7 @@ public class TextoIntroAlbert : MonoBehaviour
 
         if (rightTriggerAction.action.WasPressedThisFrame())
         {
+                Debug.Log("Trigger derecho pulsado");
             cambioEscena();
         }
     }
