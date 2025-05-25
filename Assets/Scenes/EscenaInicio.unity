@@ -23172,7 +23172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reloj: {fileID: 0}
-  tiempoRestante: 30
+  tiempoRestante: 600
 --- !u!114 &1026980701
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,7 +11,7 @@ public class Contrareloj : MonoBehaviour
     public static Contrareloj Instance;
 
     public GameObject reloj;
-    public float tiempoRestante = 420f;  // 7 minutos en segundos
+    public float tiempoRestante = 600f;  // 10 minutos en segundos
     private bool tiempoActivo = true;
     private TextMeshProUGUI textoReloj;  // El componente de texto
 
