@@ -52,7 +52,7 @@ public class TextoInicio : MonoBehaviour
         }
 
         // Cambiar de escena con espacio
-        /*if (Input.GetKeyDown(KeyCode.Space))
+       /* if (Input.GetKeyDown(KeyCode.Space))
         {
             cambioEscena();
         }*/

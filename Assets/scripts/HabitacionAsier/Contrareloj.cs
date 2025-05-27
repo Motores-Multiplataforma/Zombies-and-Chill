@@ -11,13 +11,22 @@ public class Contrareloj : MonoBehaviour
     public static Contrareloj Instance;
 
     public GameObject reloj;
-    public float tiempoRestante = 600f;  // 10 minutos en segundos
+    public float tiempoRestante = 900f;  // 15 minutos en segundos
     private bool tiempoActivo = true;
     private TextMeshProUGUI textoReloj;  // El componente de texto
-
+    
     private float timer = 0f;
     private bool parpadeoActivo = false;
     //private bool activated = false;
+
+
+
+    //Prueba musica
+    //private bool haCambiadoMusica = false;
+
+    // Variable para controlar el cambio de música
+    private int pistaActual = 0;
+
 
     void Awake()
     {
@@ -45,7 +54,8 @@ public class Contrareloj : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Al inicio, reproducimos la primera música
+        AudioManager.Instance.SonarMusica(AudioManager.Instance.banda[0]);
     }
 
    //
@@ -81,11 +91,13 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     //----------------------------------------------------------------------
 
     // Update is called once per frame
+
     
-    void Update()
+ void Update()
         {
          if (tiempoActivo && tiempoRestante > 0)
             {
+                //Esta línea resta segundos
                 tiempoRestante -= Time.deltaTime;
                 ActualizarReloj();
 
@@ -97,14 +109,14 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
             }
             else if (tiempoRestante <= 0 && tiempoActivo)
 {
-    tiempoRestante = 0;
-    tiempoActivo = false;
-    ActualizarReloj();
+        tiempoRestante = 0;
+        tiempoActivo = false;
+        ActualizarReloj();
 
-    Debug.Log("¡Tiempo terminado!");
+        Debug.Log("¡Tiempo terminado!");
     
-    // Cambiar de escena al llegar a cero
-    SceneManager.LoadScene("GameOverPerdio");
+        // Cambiar de escena al llegar a cero
+        SceneManager.LoadScene("GameOverPerdio");
 }
 
              // Efecto de parpadeo cuando quedan menos de 60 segundos
@@ -122,54 +134,60 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
                 }
             }
 
+            //Metodo antiguo de cambio de audio
+        /*  if (tiempoRestante > 0)
+          {
+              //tiempoRestante -= Time.deltaTime;
 
-        }
-    
+              // Cuando queden menos de 6 minutos, cambia la música si no lo ha hecho ya
+              if (tiempoRestante <= 890 && !haCambiadoMusica)
+              {
+                  AudioManager.Instance.CrossfadeMusica(AudioManager.Instance.banda[1], 2f); // duración de 2 segundos
+                  haCambiadoMusica = true;
+              }
 
-    /*   Esta parte es similar a a de arriba, pero ChatGpt cambió algunas cosas. No sé si a mejor o a peor
-     *   Pero, Las dos funcionan
+              if (tiempoRestante <= 880 && !haCambiadoMusica)
+              {
+                  AudioManager.Instance.CrossfadeMusica(AudioManager.Instance.banda[2], 2f); // duración de 2 segundos
+                  haCambiadoMusica = true;
+              }
 
-    void Update()
-    {
-        if (tiempoActivo && tiempoRestante > 0)
+              UpdateTimerDisplay(tiempoRestante);
+          }
+          else
+          {
+              tiempoRestante = 0;
+              UpdateTimerDisplay(tiempoRestante);
+          }*/
+
+        // Cambiar la música dependiendo del tiempo restante
+        if (tiempoRestante <= 240 && pistaActual == 0)
         {
-            tiempoRestante -= Time.deltaTime;
-
-            if (textoReloj != null)
-                ActualizarReloj();
-
-            if (tiempoRestante <= 60 && !parpadeoActivo)
-            {
-                parpadeoActivo = true;
-            }
+            CambiarMusica(1);  // Cambiar a la siguiente música
         }
-        else if (tiempoRestante <= 0 && tiempoActivo)
+
+        //Estas líneas sirven para poer cambiar de pista de audio. Sólo hay que marcar el segundo en el que quieres que cambie
+        /*else if (tiempoRestante <= 880 && pistaActual == 1)
         {
-            tiempoRestante = 0;
-            tiempoActivo = false;
-
-            if (textoReloj != null)
-                ActualizarReloj();
-
-            Debug.Log("¡Tiempo terminado!");
+            CambiarMusica(2);
         }
-
-        // Parpadeo
-        if (parpadeoActivo && textoReloj != null)
+        else if (tiempoRestante <= 870 && pistaActual == 2)
         {
-            timer += Time.deltaTime;
-            if (timer >= 0.5f && timer < 1.5f)
-            {
-                textoReloj.enabled = false;
-            }
-            else if (timer >= 1.5f)
-            {
-                textoReloj.enabled = true;
-                timer = 0f;
-            }
-        }
+            CambiarMusica(3);
+        }*/
+
     }
-    */
+
+
+   
+
+
+    void UpdateTimerDisplay(float timeToDisplay)
+    {
+        int minutes = Mathf.FloorToInt(timeToDisplay / 60);
+        int seconds = Mathf.FloorToInt(timeToDisplay % 60);
+        textoReloj.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
 
 
     void ActualizarReloj()
@@ -177,5 +195,15 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         int minutos = Mathf.FloorToInt(tiempoRestante / 60);
         int segundos = Mathf.FloorToInt(tiempoRestante % 60);
         textoReloj.text = string.Format("{0:00}:{1:00}", minutos, segundos);
+    }
+
+    // Método para cambiar la música
+    void CambiarMusica(int nuevoIndice)
+    {
+        if (nuevoIndice >= 0 && nuevoIndice < AudioManager.Instance.banda.Length && nuevoIndice != pistaActual)
+        {
+            pistaActual = nuevoIndice;
+            AudioManager.Instance.CrossfadeMusica(AudioManager.Instance.banda[pistaActual], 2f); // Duración del crossfade
+        }
     }
 }
