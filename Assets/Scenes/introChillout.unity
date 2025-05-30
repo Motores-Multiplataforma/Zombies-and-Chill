@@ -456,7 +456,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 66.19031, y: 0}
+  m_AnchoredPosition: {x: 66.19043, y: 0}
   m_SizeDelta: {x: 1546.6205, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373139071
@@ -684,7 +684,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "El mundo que conoces no existe...Una amenaza se acerca\xBFListo para sobrevivir?
     \n\n Tienes 7 minutos para buscar las llaves y crear tu chillout pero primero
-    monta tu hoguera \xA1Aprende a ser un  superviviente chill!"
+    monta tu hoguera al lado de las ruinas \xA1Aprende a ser un  superviviente chill!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
   m_sharedMaterial: {fileID: 881820714376138513, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
