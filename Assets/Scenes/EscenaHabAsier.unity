@@ -1134,11 +1134,17 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1320713006}
+  - {fileID: 1797185806}
   - {fileID: 914304434}
+  - {fileID: 7459800824399023842}
   - {fileID: 5911216872656522372}
+  - {fileID: 1140848172}
   - {fileID: 1210694864}
+  - {fileID: 1930002879}
   - {fileID: 8094370703332811780}
+  - {fileID: 840505327}
   - {fileID: 6024857667726062358}
+  - {fileID: 1960635776}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &790965569
@@ -1216,6 +1222,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790965569}
   m_CullTransparentMesh: 1
+--- !u!1 &840505326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840505327}
+  m_Layer: 0
+  m_Name: Cojin1 Punto Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &840505327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840505326}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.6595399, y: -0.240309, z: -0.44953376, w: 0.5524294}
+  m_LocalPosition: {x: -0.8348024, y: 1.7327754, z: -0.81876683}
+  m_LocalScale: {x: 34.330513, y: 34.330517, z: 34.33051}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777224742}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &885722747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1373,6 +1410,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c3a68446b7f94f46bb3d368acea5d09, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1053069026}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c3a68446b7f94f46bb3d368acea5d09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1053069029}
   m_SourcePrefab: {fileID: 100100000, guid: 7c3a68446b7f94f46bb3d368acea5d09, type: 3}
 --- !u!4 &914304434 stripped
 Transform:
@@ -1877,6 +1917,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectId: cuchillo
+--- !u!114 &1053069029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053069016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e19dc3bc0e418f4ab5cf75d1229269b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 7459800824399023842}
+  returnSound: {fileID: 8300000, guid: 702cea8ee2fdb422f909f45f1f91f4d7, type: 3}
+  fallThresholdY: -10
 --- !u!1 &1075228805 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
@@ -2232,6 +2287,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1116516349}
   m_CullTransparentMesh: 1
+--- !u!1 &1140848171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1140848172}
+  m_Layer: 0
+  m_Name: Lighter Punto Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1140848172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140848171}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.49674606, y: 0.9603901, z: 4.1395807}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777224742}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1210694859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2245,6 +2331,7 @@ GameObject:
   - component: {fileID: 1210694862}
   - component: {fileID: 1210694861}
   - component: {fileID: 1210694865}
+  - component: {fileID: 1210694866}
   m_Layer: 0
   m_Name: Ajedrez
   m_TagString: Untagged
@@ -2483,6 +2570,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectId: ajedrez
+--- !u!114 &1210694866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210694859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e19dc3bc0e418f4ab5cf75d1229269b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 1930002879}
+  returnSound: {fileID: 8300000, guid: 702cea8ee2fdb422f909f45f1f91f4d7, type: 3}
+  fallThresholdY: -10
 --- !u!1001 &1320713005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2567,6 +2669,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1320713008}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1320713009}
   m_SourcePrefab: {fileID: 100100000, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
 --- !u!4 &1320713006 stripped
 Transform:
@@ -2607,6 +2712,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.06681496, y: 0.07876164, z: 0.13204426}
   m_Center: {x: 0.00011127437, y: 0.0022569748, z: 0.058503315}
+--- !u!114 &1320713009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075228805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e19dc3bc0e418f4ab5cf75d1229269b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 1797185806}
+  returnSound: {fileID: 8300000, guid: 702cea8ee2fdb422f909f45f1f91f4d7, type: 3}
+  fallThresholdY: -10
 --- !u!64 &1414346022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3118,6 +3238,116 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ac0ff4691cd505439d240a905a5ea34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1797185806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+  m_PrefabInstance: {fileID: 1918797605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1918797605
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 777224742}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5055251
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5055251
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5055249
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.122746
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.73007095
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.6954193
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70622325
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70622325
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.03533718
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.03533718
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 714.271
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+      propertyPath: m_Name
+      value: Lata Fanta Punto Spawn
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: -3372522033569347474, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b0ff8511f3251b42ac659eae3046577, type: 3}
+--- !u!1 &1930002878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1930002879}
+  m_Layer: 0
+  m_Name: Ajedrez Punto Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1930002879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930002878}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.064746, y: 1.560071, z: -0.056419134}
+  m_LocalScale: {x: 3.9522, y: 3.9522, z: 3.9522}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777224742}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1944035543 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3372522033569347474, guid: 22bee5f266e2b5e48ad4acaa6b80d8e1, type: 3}
@@ -3175,6 +3405,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 914486557}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960635775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1960635776}
+  m_Layer: 0
+  m_Name: Alfombra Punto Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1960635776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960635775}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.04997203, z: -0, w: 0.9987506}
+  m_LocalPosition: {x: 5.239412, y: 0.82587016, z: -0.079025984}
+  m_LocalScale: {x: 444.17575, y: 94.859024, z: 534.3604}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777224742}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2029046588
 GameObject:
@@ -4418,6 +4679,7 @@ GameObject:
   - component: {fileID: 8251246860615690918}
   - component: {fileID: 9172454293831664152}
   - component: {fileID: 7487633734196912605}
+  - component: {fileID: 9172454293831664153}
   m_Layer: 0
   m_Name: Lighter
   m_TagString: Untagged
@@ -4969,6 +5231,7 @@ GameObject:
   - component: {fileID: 1420570190}
   - component: {fileID: 1420570195}
   - component: {fileID: 8094370703332811781}
+  - component: {fileID: 8094370703332811782}
   m_Layer: 0
   m_Name: Cojin1
   m_TagString: Untagged
@@ -13358,6 +13621,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1046998882504114007}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &7459800824399023842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840021481894974552}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.029268766, y: -0.30838728, z: 0.0063503296, w: 0.95078933}
+  m_LocalPosition: {x: 0.47874498, y: 1.3710709, z: 0.96482396}
+  m_LocalScale: {x: 3.0321994, y: 3.4572, z: 13.214184}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777224742}
+  m_LocalEulerAnglesHint: {x: -2.966, y: 684.014, z: 1.729}
 --- !u!1 &7467317372841115070
 GameObject:
   m_ObjectHideFlags: 0
@@ -13661,6 +13939,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5190068918666993560}
   m_Mesh: {fileID: -2826891817489414610, guid: fb820c5185c174f4d81ce38a40c791fb, type: 3}
+--- !u!1 &7840021481894974552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7459800824399023842}
+  m_Layer: 0
+  m_Name: Cuchillo Punto Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &7850802556744147612
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13793,6 +14087,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectId: cojin
+--- !u!114 &8094370703332811782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2608605304194989859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e19dc3bc0e418f4ab5cf75d1229269b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 840505327}
+  returnSound: {fileID: 8300000, guid: 702cea8ee2fdb422f909f45f1f91f4d7, type: 3}
+  fallThresholdY: -10
 --- !u!33 &8154353519036346417
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14257,6 +14566,7 @@ GameObject:
   - component: {fileID: 2145222695}
   - component: {fileID: 2145222700}
   - component: {fileID: 8728723278524365704}
+  - component: {fileID: 8728723278524365705}
   m_Layer: 0
   m_Name: Alfombra
   m_TagString: Untagged
@@ -14277,6 +14587,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectId: alfombra
+--- !u!114 &8728723278524365705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8728723278524365703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e19dc3bc0e418f4ab5cf75d1229269b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 1960635776}
+  returnSound: {fileID: 8300000, guid: 702cea8ee2fdb422f909f45f1f91f4d7, type: 3}
+  fallThresholdY: -10
 --- !u!4 &8790015568594086843
 Transform:
   m_ObjectHideFlags: 0
@@ -14393,6 +14718,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ToAnimate: {fileID: 8251246860615690918}
+--- !u!114 &9172454293831664153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362929431432700134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e19dc3bc0e418f4ab5cf75d1229269b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 1140848172}
+  returnSound: {fileID: 8300000, guid: 702cea8ee2fdb422f909f45f1f91f4d7, type: 3}
+  fallThresholdY: -10
 --- !u!23 &9182507166099559065
 MeshRenderer:
   m_ObjectHideFlags: 0

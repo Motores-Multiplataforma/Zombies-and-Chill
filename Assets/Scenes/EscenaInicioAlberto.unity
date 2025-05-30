@@ -23121,6 +23121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reloj: {fileID: 0}
   tiempoRestante: 420
+  nombreEscenaVictoria: CongratulationGano
+  nombreEscenaDerrota: GameOverPerdio
 --- !u!114 &1026980701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44823,6 +44825,7 @@ GameObject:
   - component: {fileID: 7344850157965117931}
   - component: {fileID: 7562617848513184548}
   - component: {fileID: 7562617848513184549}
+  - component: {fileID: 7562617848513184550}
   m_Layer: 0
   m_Name: Escultura_ella (1)
   m_TagString: Untagged
@@ -45335,6 +45338,20 @@ MonoBehaviour:
   expectedId: escultura
   visualMeshesToEnable:
   - {fileID: 1162791020}
+--- !u!114 &7562617848513184550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6059553599104947772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b2cf3f5eb77e84d85e3aaaf0878377, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expectedId: escultura
+  haloVisual: {fileID: 0}
 --- !u!1 &7599170467556478589
 GameObject:
   m_ObjectHideFlags: 0

@@ -34098,6 +34098,37 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!1 &1236789470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1236789471}
+  m_Layer: 0
+  m_Name: Lighter Punto spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1236789471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236789470}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 17.58, y: -4.202, z: -15.96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1245413740 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2725838063745542312, guid: 3bf311fc4a4205448bc3bd71c5d9611f, type: 3}
@@ -55667,6 +55698,7 @@ GameObject:
   - component: {fileID: 2005494457}
   - component: {fileID: 2005494456}
   - component: {fileID: 2005494454}
+  - component: {fileID: 2005494459}
   m_Layer: 0
   m_Name: Lighter
   m_TagString: Untagged
@@ -55990,6 +56022,21 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2005494459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005494452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e19dc3bc0e418f4ab5cf75d1229269b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 1236789471}
+  returnSound: {fileID: 8300000, guid: 702cea8ee2fdb422f909f45f1f91f4d7, type: 3}
+  fallThresholdY: -10
 --- !u!1 &2028681639
 GameObject:
   m_ObjectHideFlags: 0
@@ -58996,4 +59043,5 @@ SceneRoots:
   - {fileID: 1048136836}
   - {fileID: 148614901}
   - {fileID: 2005494453}
+  - {fileID: 1236789471}
   - {fileID: 242935771}

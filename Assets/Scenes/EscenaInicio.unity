@@ -5705,6 +5705,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0064b6bc176030499bfd7cb7dd8b013, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1540540227}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f0064b6bc176030499bfd7cb7dd8b013, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1540540228}
     - targetCorrespondingSourceObject: {fileID: -3372522033569347474, guid: f0064b6bc176030499bfd7cb7dd8b013, type: 3}
       insertIndex: -1
       addedObject: {fileID: 320767087}
@@ -23046,6 +23049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reloj: {fileID: 0}
   tiempoRestante: 900
+  nombreEscenaVictoria: CongratulationGano
+  nombreEscenaDerrota: GameOverPerdio
 --- !u!114 &1026980701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35891,6 +35896,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.05907161, y: 0.0782154, z: 0.02630318}
   m_Center: {x: 0.0036559883, y: 0.032729212, z: 0.001457187}
+--- !u!114 &1540540228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540540220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e19dc3bc0e418f4ab5cf75d1229269b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 60709133683573605}
+  returnSound: {fileID: 8300000, guid: 702cea8ee2fdb422f909f45f1f91f4d7, type: 3}
+  fallThresholdY: -10
 --- !u!1 &1576691685 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3945106074007610142, guid: aae34405873461b4eb84606f554fa0fa, type: 3}
@@ -44052,6 +44072,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093864433}
   m_Mesh: {fileID: -5530779025500769120, guid: 5b8c5d53afd5943f8896882565a00e39, type: 3}
+--- !u!4 &60709133683573605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836682230207388127}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.41566002, y: 0.47345713, z: -0.27032417, w: 0.7280041}
+  m_LocalPosition: {x: 30.266, y: -1.26, z: -17.11}
+  m_LocalScale: {x: 7.7635593, y: 7.7635593, z: 7.7635593}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 59.449, y: 66.076, z: 0}
 --- !u!1001 &412984668755178435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44200,6 +44235,22 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1059452154}
   m_SourcePrefab: {fileID: 100100000, guid: e864c80cd74105e42878a7240fd59eb9, type: 3}
+--- !u!1 &836682230207388127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 60709133683573605}
+  m_Layer: 0
+  m_Name: LlaveAlbert (1)
+  m_TagString: LlaveAlbert
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!135 &881493285977672643
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45116,6 +45167,7 @@ SceneRoots:
   - {fileID: 92719914}
   - {fileID: 999377305}
   - {fileID: 187786156}
+  - {fileID: 60709133683573605}
   - {fileID: 1496303199}
   - {fileID: 1169362703}
   - {fileID: 1026980699}
