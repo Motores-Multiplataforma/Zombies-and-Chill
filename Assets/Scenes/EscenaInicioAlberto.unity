@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 6ed4d27a327273642b0822896fe94684, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 3295e9d72d855c34d915176d2e7bb7d4, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1052,6 +1052,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05c6afebaa743034bba55b1bada7f998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fx: []
+  _audioSource: {fileID: 0}
+  musicObj: {fileID: 0}
+  musicObj2: {fileID: 0}
+  musicObj3: {fileID: 0}
+  audioMusic: {fileID: 0}
+  audioMusic02: {fileID: 0}
+  audioMusic03: {fileID: 0}
+  banda: []
 --- !u!4 &184749051
 Transform:
   m_ObjectHideFlags: 0
