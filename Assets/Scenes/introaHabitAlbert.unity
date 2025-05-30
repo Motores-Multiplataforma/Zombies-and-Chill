@@ -488,7 +488,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Solo en la ruina florecen nuevos refugios. Recoge lo que queda: sill\xF3n,
-    estatua, silla, mesa, vaso y jarra\u2026 y p\xF3ntelos  junto a la hoguera."
+    estatua, silla, mesa, vaso y jarra\u2026 y p\xF3ntelos  en la caja."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
   m_sharedMaterial: {fileID: 881820714376138513, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}

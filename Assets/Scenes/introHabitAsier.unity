@@ -606,9 +606,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Debes recoger objetos para decorar tu h\xE1bitat. Recuerda que al final,
-    debes disfrutar la vida al m\xE1ximo y cuidarte. No olvides encender el fuego.\n\nMechero,
-    Cuchillo, Tablero Ajedrez, Coj\xEDn, Alfombra y un refresco."
+  m_text: "Debes poner objetos en la caja para decorar tu h\xE1bitat fuera. Recuerda
+    que al final, debes disfrutar la vida al m\xE1ximo y cuidarte. No olvides encender
+    el fuego.\n\nMechero, Cuchillo, Tablero Ajedrez, Coj\xEDn, Alfombra y un refresco."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
   m_sharedMaterial: {fileID: 881820714376138513, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
