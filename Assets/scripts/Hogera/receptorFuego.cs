@@ -1,29 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class receptorFuego : MonoBehaviour
 {
     public GameObject fuego;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private bool yaEncendido = false;
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        
-    }
-    
-    void OnTriggerEnter(Collider other) 
-    {
-        if (other.gameObject.tag == "Flame")
+        if (yaEncendido) return;
+
+        if (other.gameObject.CompareTag("Flame"))
         {
             fuego.SetActive(true);
+            yaEncendido = true;
+
+            Debug.Log("🔥 Fuego encendido por contacto con 'Flame'.");
+
+            // Notificar al sistema de victoria
+            if (GameVictoryManager.Instance != null)
+            {
+                GameVictoryManager.Instance.MarcarHogueraEncendida();
+            }
+            else
+            {
+                Debug.LogError("❌ GameVictoryManager.Instance es null. ¿Olvidaste colocarlo en la escena?");
+            }
         }
     }
 }
-
-

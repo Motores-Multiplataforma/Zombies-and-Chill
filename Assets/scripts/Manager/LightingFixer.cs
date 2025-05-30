@@ -28,7 +28,8 @@ public class LightingFixer : MonoBehaviour
     void FixReflectionSettings()
     {
         RenderSettings.defaultReflectionMode = UnityEngine.Rendering.DefaultReflectionMode.Skybox;
-        RenderSettings.customReflection = null;
+        RenderSettings.customReflectionTexture = null;
+
 
         Debug.Log("✅ LightingFixer: Reflection configurada correctamente en Skybox.");
     }

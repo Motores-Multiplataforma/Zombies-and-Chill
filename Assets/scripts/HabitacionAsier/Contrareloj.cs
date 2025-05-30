@@ -19,6 +19,9 @@ public class Contrareloj : MonoBehaviour
     private bool parpadeoActivo = false;
     //private bool activated = false;
 
+    [Header("Nombres de escenas")]
+    public string nombreEscenaVictoria = "CongratulationGano";
+    public string nombreEscenaDerrota = "GameOverPerdio";
 
 
     //Prueba musica
@@ -206,4 +209,20 @@ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
             AudioManager.Instance.CrossfadeMusica(AudioManager.Instance.banda[pistaActual], 2f); // Duración del crossfade
         }
     }
+    public void GanarJuego()
+    {
+        if (tiempoActivo && tiempoRestante > 0)
+        {
+            tiempoActivo = false;
+            Debug.Log("¡Ganaste el juego!");
+            SceneManager.LoadScene(nombreEscenaVictoria);
+        }
+        else
+        {
+            Debug.Log("Intentaste ganar pero el tiempo se agotó.");
+            SceneManager.LoadScene(nombreEscenaDerrota);
+        }
+    }
+
+
 }

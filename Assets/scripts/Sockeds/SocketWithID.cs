@@ -26,9 +26,18 @@ public class SocketWithID : MonoBehaviour
         {
             if (pickup.objectId == expectedId)
             {
+                // Activar visual
                 if (visualMeshToEnable != null)
                     visualMeshToEnable.SetActive(true);
 
+                // Registrar la colocación del objeto
+                ObjectPlacementManager placementManager = FindObjectOfType<ObjectPlacementManager>();
+                if (placementManager != null)
+                {
+                    placementManager.RegisterPlacement();
+                }
+
+                // Eliminar objeto
                 Destroy(placedObject);
             }
             else
