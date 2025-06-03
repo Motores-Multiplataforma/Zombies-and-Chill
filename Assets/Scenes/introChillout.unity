@@ -683,7 +683,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "El mundo que conoces no existe...Una amenaza se acerca\xBFListo para sobrevivir?
-    \n\n Tienes 7 minutos para buscar las llaves y crear tu chillout pero primero
+    \n\n Tienes 15 minutos para buscar las llaves y crear tu chillout pero primero
     monta tu hoguera al lado de las ruinas \xA1Aprende a ser un  superviviente chill!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 61dee5c747f234a7d9b6a8f27fcdf9c2, type: 2}
